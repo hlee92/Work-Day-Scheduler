@@ -10,8 +10,10 @@ function colorOfTimeBlock() {
 
         if (currentHour > hour) {
             $(this).addClass("future");
+
         } else if (currentHour === hour) {
             $(this).addClass("present");
+            
         } else {
             $(this).addClass("past");
         }
